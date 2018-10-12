@@ -19,7 +19,7 @@ function currentLine(currentLine) {
     return 'The line is currently empty.';
   } else {
     for (let i=0;i<currentLine.length;i++) {
-      string + ` ${(i+1)} ${currentLine[i]},`;
+      string.push(` ${(i+1)} ${currentLine[i]},`);
     }
   }
   return string;
