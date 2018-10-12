@@ -12,3 +12,7 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${serving}.`;
   }
 }
+
+function currenLine(currentLine) {
+  var string = 'The line is currently:' 
+}
