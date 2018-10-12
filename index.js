@@ -21,6 +21,8 @@ function currentLine(currentLine) {
     for (let i=0;i<currentLine.length;i++) {
       if (i === (currentLine.length-1)) {
         string = string + ` ${(i+1)}. ${currentLine[i]}`;
+      } else {
+        string = string + ` ${(i+1)}. ${currentLine[i]},`;
       }
     }
   }
